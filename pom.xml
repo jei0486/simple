@@ -63,7 +63,7 @@
     <repositories>
 		<repository>
 			<id>local-repository</id>
-			<url>file://${project.basedir}/src/main/webapp/WEB-INF/repository</url>
+			<url>file://D:\_JellySeul\_java_workspace\04_simple_test\simple/src/main/webapp/WEB-INF/repository</url>
 		</repository>
 		<repository>
 			<snapshots>
