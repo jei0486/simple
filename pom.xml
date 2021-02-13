@@ -62,8 +62,9 @@
     </build>
     <repositories>
 		<repository>
-			<id>local-repository</id>
-			<url>file://D:\_JellySeul\_java_workspace\04_simple_test\simple/src/main/webapp/WEB-INF/repository</url>
+			<id>oracle</id>
+			<name>ORACLE JDBC Repository</name>
+			<url>http://maven.jahia.org/maven2</url>
 		</repository>
 		<repository>
 			<snapshots>
@@ -200,8 +201,8 @@
 		</dependency>
 		<dependency>
 			<groupId>com.oracle</groupId>
-			<artifactId>ojdbc14</artifactId>
-			<version>10.2.0.4.0</version>
+			<artifactId>ojdbc6</artifactId>
+			<version>12.1.0.1</version>
 		</dependency>
 		
 		<dependency>
